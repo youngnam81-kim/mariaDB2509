@@ -347,3 +347,7 @@ join Lesson l on g.mno = l.mno
 ;
 
 
+select u1_0.id,u1_0.auth,u1_0.password,u1_0.user_id,u1_0.user_name from app_users u1_0 where u1_0.user_id='user' and u1_0.password='user';
+
+select * from app_users;
+
